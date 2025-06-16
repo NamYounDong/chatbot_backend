@@ -78,11 +78,13 @@ if  __name__ == "__main__" :
     # * 실행 방법 종류 : 아래 두 방법 모두 소스 수정 시 자동 반영(Reload)되므로 개발단계 실행 방법으로 보임.
     # 1. uvicorn 파일명(확장자제외):app --reload : 파이썬 실행? fast api 실행?
     # - 아래 소스로 작성
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    # uvicorn.run(app, host="0.0.0.0", port=8000)
     
     # 2. python 파일명.확장자 : 파이썬 실행? fast api 실행?
     # - 아래 소스로 작성
     # uvicorn.run("backend:app", host="127.0.0.1", port=8000, reload=True)
+    
+    uvicorn.run(app, host="0.0.0.0", port=8000)
     
     
     
