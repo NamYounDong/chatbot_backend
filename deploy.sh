@@ -117,7 +117,7 @@ source /home/ubuntu/miniconda/bin/activate fastapi-env
 
 # 의존성 설치
 echo "Installing dependencies..."
-pip install -r requirements.txt
+pip install -r modul.txt
 
 
 # Nginx 설정 테스트 및 재시작
