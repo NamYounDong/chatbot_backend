@@ -11,7 +11,7 @@ import asyncio
 load_dotenv()
 
 # API KEYS
-OPENAI_KEY = os.getenv("OPENAI_KEY")
+OPENAI_KEY = os.getenv("OPENAI_API_KEY")
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 
 # LLM 구성 : GPT 모델 활용
